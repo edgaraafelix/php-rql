@@ -5,6 +5,7 @@ namespace r\ValuedQuery;
 use r\ValuedQuery\ValuedQuery;
 use r\Datum\NumberDatum;
 use r\ProtocolBuffer\TermTermType;
+use r\Exceptions\RqlDriverError;
 
 class RVar extends ValuedQuery
 {

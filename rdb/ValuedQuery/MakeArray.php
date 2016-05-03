@@ -4,6 +4,7 @@ namespace r\ValuedQuery;
 
 use r\ValuedQuery\ValuedQuery;
 use r\ProtocolBuffer\TermTermType;
+use r\Exceptions\RqlDriverError;
 
 class MakeArray extends ValuedQuery
 {

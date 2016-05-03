@@ -4,13 +4,14 @@ namespace r\ValuedQuery;
 
 use r\ValuedQuery\ValuedQuery;
 use r\ProtocolBuffer\TermTermType;
+use r\Exceptions\RqlDriverError;
 
 class RObject extends ValuedQuery
 {
     public function __construct($object)
     {
         if (!is_array($object)) {
-            throw RqlDriverError("Argument to r\\Object must be an array.");
+            throw new RqlDriverError("Argument to r\\Object must be an array.");
         }
         $i = 0;
         foreach ($object as $v) {

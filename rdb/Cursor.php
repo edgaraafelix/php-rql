@@ -5,6 +5,7 @@ namespace r;
 use Iterator;
 use r\ProtocolBuffer\ResponseResponseType;
 use r\DatumConverter;
+use r\Exceptions\RqlDriverError;
 
 class Cursor implements Iterator
 {

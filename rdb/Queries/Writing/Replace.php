@@ -5,6 +5,7 @@ namespace r\Queries\Writing;
 use r\ValuedQuery\ValuedQuery;
 use r\ValuedQuery\Json;
 use r\ProtocolBuffer\TermTermType;
+use r\Exceptions\RqlDriverError;
 
 class Replace extends ValuedQuery
 {

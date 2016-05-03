@@ -1,5 +1,5 @@
 {
-    "name": "danielmewes/php-rql",
+    "name": "edgaraafelix/php-rql",
     "type": "library",
     "description": "A PHP client driver for the RethinkDB query language (ReQL)",
     "keywords": ["rethinkdb","driver","database","reql"],
@@ -10,6 +10,14 @@
             "name": "Daniel Mewes",
             "email": "danielmewes@onlinehome.de",
             "homepage": "http://dmewes.com",
+            "role": "Developer"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Edgar Felix",
+            "email": "eaafelix@gmail.com",
+            "homepage": "https://github.com/edgaraafelix",
             "role": "Developer"
         }
     ],
